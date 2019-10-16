@@ -21,7 +21,7 @@ const Form = props => {
 
     return (
         <form onSubmit={submitForm}>
-            <label htmlFor="name">Name: </label>
+            <label htmlFor="name"> Name: </label>
             <input 
             name="name"
             id="name"
@@ -31,7 +31,7 @@ const Form = props => {
             value={members.name}
             />
 
-            <label htmlFor="email">Email: </label>
+            <label htmlFor="email"> Email: </label>
             <input 
             name="email"
             id="email"
@@ -41,7 +41,7 @@ const Form = props => {
             value={members.email}
             />
 
-            <label htmlFor="role">Role: </label>
+            <label htmlFor="role"> Role: </label>
             <input
             name="role"
             id="role"

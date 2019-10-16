@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Form from "./Components/Form";
+import Members from "./Components/Members";
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
      <div className="App">
        <h1>Team Members</h1>
        <Form addNewMember={addNewMember}/>
+       <Members membersList={member} /> 
     </div>
   );
 }
